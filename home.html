@@ -4,141 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Software Developer Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav >
-       
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        
+    <nav  >
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          
     </nav>
 
     <!-- About Section -->
-    <section id="about" class="container">
-        <div class="row">
-            <div class="col-md-6">
+    <section id="about" class="about">
+        <div class="about__container">
                 <h2>About Me</h2>
-                <p>Hi, I'm James Ndungu, a passionate software developer with experience in building web and mobile applications. I love coding, learning new technologies, and solving problems.</p>
-            </div>
-            <div class="col-md-6">
+                <p>Hi, I'm James Ndungu, a passionate software developer with experience in building web and mobile applications. 
+                    <br>I love coding, learning new technologies, and solving problems.</p>
+            
+            <div class="about__image">
                 <img src="/assets/jay.png" alt="sponge b" class="sp">
             </div>
         </div>
+        
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills__bg">
-        <div class="container">
-            <h2 class="text-center">Skills</h2>
-            <div class="rows">
-                <div class="grid">
-                    <h4>Frontend</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                    </ul>
+        <section id="skills" class="section__container skills__container">
+            <h2 class="section__header">Skills</h2>
+            <p class="section__subheader">
+              My skills are as listed below.
+            </p>
+            <div class="skills__grid">
+            <div class="skills__card">
+                <div class="skills__card__content">
+                    <h4>Frontend</h4>                
+                    <h3>HTML, CSS, Javascript and React</h3>
+                   
                 </div>
-                <div class="grid">
-                    <h4>Backend</h4>
-                    <ul>
-                        <li>PHP</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <div class="grid">
-                    <h4>Tools & Technologies</h4>
-                    <ul>
-                        <li>Git</li>
-                        <li>Android Studio</li>
-                        <li>MySQL</li>
-                    </ul>
+                <button class="btn skills__btn"><a href="#">View Skills</a></button>
+            </div>
+                <div class="skills__grid">
+                    <div class="skills__card">
+                    <div class="skills__card__content">
+                            <h4>Backend</h4>                
+                            <h3> Python, PHP and MySQL</h3>
+                        </div>
+                        <button class="btn skills__btn"><a href="#">View Skills</a></button>
+                    </div>
+                        <div class="skills__grid">
+                        <div class="skills__card">
+                            <div class="skills__card__content">
+                                    <h4>Tools and Technology</h4>                
+                                    <h3>Git, Android Studio and Github</h3>
+                                    
+                                </div>
+                               
+                        </div>
+                        </div>
                 </div>
             </div>
-        </div>
+                     
     </section>
+
+
     <!-- Education Section -->
-    <section id="education" class="container__education">
-        <h2 class="text-center">Education</h2>
-        <div class="rows">
-            <div class=" portfolio-item">
-                <h4>Bachelors Degree Computer Science</h4>
-                <p>Africa Nazarene University (2019-2023)<br>
+    <section id="education" class="section__container education__container">
+        <h2 class="section__header">Education</h2>
+        <div class=" portfolio-item">
+            <h4><img src="assets/grad-cap-2.gif" alt="" width="52" height="35"/>Bachelors Degree Computer Science</h4>
+           <h5>Africa Nazarene University (2019-2023)</h5> 
+            
+                   <p>
                     Highly motivated and skilled Fresher Computer Science with a passion for developing innovative software solutions. 
                     Proficient in various programming languages including C++, Python, and Java, with experience in developing web and mobile applications, designing databases, and debugging software. 
                     Collaborative team player 
                     with a proven track record of delivering high-quality work and achieving exceptional results.</p>
             </div>
+        
             
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="container__projects">
-        <h2 class="text-center">Projects</h2>
-        <div class="rows">
-            <div class=" portfolio-item">
-                <h4>Project One</h4>
-                <p>A brief description of the project goes here.</p>
+    <section id="projects" class="section__container container__project">
+        <h2 class="section__header">Projects</h2>
+        <p class="section__subheader">
+          A list of the Projects that  i have personally worked on.
+        </p>
+        <div class="project__grid">
+            <div class="project__card">
+                <div class="project__card__content">
+                    <h4>Sushiman</h4>                
+                    <h3>An online website platform for selling sushi online</h3>
+                   
+                </div>
+                <button class="btn project__btn"><a href="#">View Project</a></button>
             </div>
-            <div class=" portfolio-item">
-                <h4>Project Two</h4>
-                <p>A brief description of the project goes here.</p>
-            </div>
-            <div class=" portfolio-item">
-                <h4>Project Three</h4>
-                <p>A brief description of the project goes here.</p>
-            </div>
+            <div class="project__grid">
+                <div class="project__card">
+                    <div class="project__card__content">
+                        <h4>Stramco</h4>                
+                        <h3>Hr consultancy system for job advertisement and recruitment</h3>
+                    </div>
+                    <button class="btn project__btn"><a href="#">View Project</a></button>
+                </div>
         </div>
+        </div>
+        
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact-bg">
         <div class="container">
             <h2 class="text-center">Contact</h2>
-            <div class="row">
-                <div class="colunm">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn-sub">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+            <form id="contact" >
+                <input type="hidden" name="_subject" required>
+                <label for="name">Your Name:</label>
+                <input type="text" placeholder="John Doe" id="name" name="name" required >
+        
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        
+    <footer class="section__container footer__container">
         <div class="footer__socials">
-            <a href="#"><i class="ri-facebook-fill"></i></a>
-            <a href="#"><i class="ri-instagram-line"></i></a>
-            <a href="#"><i class="ri-twitter-fill"></i></a>
-            <a href="#"><i class="ri-youtube-fill"></i></a>
+            <img src="assets/icons8-facebook-30.png" alt="" width="22" height="25"/>
+            <img src="assets/icons8-instagram-50.png" alt="" width="22" height="25"/>
+            <img src="assets/icons8-twitterx-30.png" alt="" width="22" height="25"/>
+            <img src="assets/icons8-youtube-50.png" alt="" width="22" height="25"/>
+            <img src="assets/icons8-github.gif" alt="" width="22" height="25"/>
           </div>
-        <div class="container">
             <p>&copy; 2024 James Ndungu. All rights reserved.</p>
-        </div>
+        
+        
     </footer>
 
  
