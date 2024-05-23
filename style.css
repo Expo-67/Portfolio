@@ -1,33 +1,8 @@
-/* Styling the navbar */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: beige;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #333;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
 /* Styling for the body */
 
 body {
   min-height: 100vh;
-  font-family: "Poppins", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #f6f4e8;
 }
 
